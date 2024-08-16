@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F5F5DC; 
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1a1a1a; 
+  color: #fff;
+}
+
+
+nav {
+  transition: background-color 0.3s;
+  background-color: transparent;
+}
+
+
+.button-dark {
+  background-color: #343a40; 
+  color: #fff; 
+}
+
+.button-light {
+  background-color: #e2e6ea;
+  color: #000;
+}
